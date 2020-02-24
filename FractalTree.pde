@@ -36,7 +36,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 	double b = (Math.random() * 250) - 0;
 	double c = (Math.random() * 250) - 0; 
 	if(branchLength > smallestBranch){
-		stroke((float)a,(float)b,(float) c);
+		fill((float)a,(float)b,(float) c);
 		drawBranches(endX1, endY1, branchLength, angle1);
 		drawBranches(endX2, endY2, branchLength, angle2);
 	}
