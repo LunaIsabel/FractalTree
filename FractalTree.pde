@@ -29,8 +29,8 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 	line(x, y, endX1, endY1);
 	line(x, y, endX2, endY2);
 
-	//branchAngle = (Math.random() * .5);
-	//fractionLength = (Math.random()* .09) + .8;
+	branchAngle = (Math.random() * .5);
+	fractionLength = (Math.random()* .09) + .8;
 	//recursion
 	double a = (Math.random() * 250) - 0;
 	double b = (Math.random() * 250) - 0;
